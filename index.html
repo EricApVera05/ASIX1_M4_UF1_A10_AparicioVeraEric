@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turisme Local: Sevilla</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="header" id="sevilla">
+        <div class="fondo" >
+            <h1>TURISMO POR SEVILLA</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="nav">
+            <h4>Menú</h4>
+            <ul>
+                <li><a href="#sevilla">Sevilla</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#demografia">Demografia</a></li>
+                <li><a href="#lugares_importantes">Lugares importantes</a></li>
+                <li><a href="#mapa">Mapa</a></li>
+                <li class="lista"><a href="#noticia">Noticias</a></li>
+            </ul>
+        </div>
+        <div class="column-6">
+            <h3 id="historia">Historia</h3>
+            <p>Sevilla, con raíces romanas, experimentó la influencia musulmana antes de ser reconquistada por Fernando III en 1248. En el Siglo de Oro español, fue un próspero puerto comercial tras el descubrimiento de América. Experimentó declive en los siglos XVIII y XIX, pero se revitalizó en el siglo XX con el turismo y eventos culturales. La ciudad destaca por la Catedral, el Alcázar y festivales como la Semana Santa y la Feria de Abril. Su historia refleja su importancia estratégica y su rol en el comercio y la cultura a lo largo de los siglos. Hoy, Sevilla es una ciudad vibrante que mezcla su rica herencia con la modernidad.</p>
+            <img src="img/sevilla.jpg" alt="">
+
+            <h3 id="demografia">Demografia</h3>
+            <p>La población actual de Sevilla capital es de 704,000 habitantes, 539 personas menos que en el año 2021. La densidad de población es de aproximadamente 6,950 hab/km². </p>
+            <img src="img/demografia.jpg" alt="">
+
+            <h3 id="lugares_importantes">Lugares importantes</h3>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext texto1">1 / 4</div>
+                    <img src="img/parque_marialuisa.jpg" style="width:100%">
+                    <div class="text"> Parque de María Luisa</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="img/sevilla_background.jpg" style="width:100%">
+                    <div class="text">Plaza de España</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="img/museo-bellas_artes.jpg" style="width:100%">
+                    <div class="text">Museo de Bellas Artes</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="img/catedral.jpg" style="width:100%">
+                    <div class="text">La Catedral</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <div id="relleno"><img id="relleno" src="img/parque_marialuisa.jpg" style="width:100%">
+                    <div class="text" id="relleno">Parque de Maria Luisa</div>
+                </div>
+            </div>
+
+            <div id="id1">
+                <p>No hace falta disponer de mucho tiempo para recorrer los jardines más conocidos y queridos de la ciudad, que fueron donados a los sevillanos por María Luisa Fernanda de Borbón en 1914. Un desvío de su avenida central nos lleva hasta la estatua de Bécquer, costeada por los hermanos Álvarez Quintero cediendo los derechos de autor de su comedia  La rima eterna. Lo más recomendable, antes de entrar en la aledaña Plaza de España, es dejarse perder por sus laberínticos caminos, estanques, fuentes y abundante vegetación.</p>
+            </div>
+            <div id="id2">
+                <p>Absolutamente sevillana, española y famosa. ¿Quién no ha buscado en ella el banco de su provincia de origen para fotografiarse en la estampa colorista que ofrece su azulejería regional? Proyectada para la Exposición Iberoamericana de 1929 por el arquitecto Aníbal González , mantiene en pie toda la galantería y el halo romántico que han hecho de ella un espacio absolutamente único. Paseos en barca y puestos de barquillos ideales para un día soleado de otoño.</p>
+            </div>
+            <div id="id3">
+                <p>El museo más relevante de Sevilla es también la segunda pinacoteca de España, con una valiosa colección de pintura de la escuela barroca (Zurbarán, Murillo y Valdés Leal), y exposiciones invitadas de envergadura. Para los residentes en la UE, la entrada es gratis. Los domingos abre, así que es un buen día para visitar el mercadillo de arte en la misma Plaza del Museo.
+                <br>Allí mismo: La Capilla del Museo, con uno de los Cristos más llamativos de la procesión de la Semana Santa de Sevilla.</p>
+            </div>
+            <div id="id4">
+                <p>El mayor templo gótico del mundo se alza en el corazón del casco histórico con su impresionante fachada, imponentes pórticos y un sobrecogedor interior, donde el altar mayor, escenario del baile de los seises (podrán verse de nuevo días antes de la Cuaresma), está a unos metros de la (supuesta) sepultura de Cristóbal Colón. Organiza visitas guiadas todos los días, a excepción del 1 y el 6 de enero y el 25 de diciembre. Este recorrido se realiza por Catedral gótica, las sacristías y la sala capitular renacentistas, el tesoro, la Giralda, el patio de los naranjos y la Iglesia del Salvador, ubicada en la plaza del Salvador, otra de las paradas imprescindibles de la ciudad. También es posible visitar sus cubiertas. Por 15 euros, lección arquitectónica y espectaculares vistas de un majestuoso casco histórico y el legendario Barrio de Santa Cruz.</p>
+            </div>
+
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+            <h3 id="mapa">Mapa</h3>
+            <p>Sevilla está situada al SO de la Península Ibérica, en el centro de la Comunidad Autónoma de Andalucía.
+                Sevilla, capital de Andalucía, es la cuarta ciudad de España en cuanto al número de habitantes.
+                A tan sólo 6 metros sobre el nivel del mar, en plena Vega y Campiña del río Guadalquivir, y a orillas de éste, conforma una aglomeración urbana que se extiende hacia el Aljarafe, Las Marismas, el Parque Nacional de Doñana, la Sierra Norte y la Sierra Sur.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101459.56498403562!2d-5.9550582499999996!3d37.37537075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c1114be6291%3A0x34f018621cfe5648!2sSevilla!5e0!3m2!1ses!2ses!4v1706615049423!5m2!1ses!2ses" 
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="noticia" class="column-2 noticias">
+            <h3>Platos Sevillanos</h3>
+            <h4>Gazpacho</h4>
+            <img src="img/plato1.jpeg" alt="">
+            <p>El <a href="https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/receta-de-gazpacho-andaluz-tradicional" style="color:grey; text-decoration: underline;">gazpacho</a> es una refrescante sopa fría de origen andaluz, con raíces especialmente arraigadas en la región de Sevilla, España. Este plato tradicional es conocido por su base de tomate, pepino, pimiento, ajo y cebolla, mezclados con pan, aceite de oliva, vinagre y sal. Originario de las zonas rurales, el gazpacho se ha convertido en un ícono gastronómico del verano español. La influencia climática cálida de Sevilla favoreció la creación de esta deliciosa receta que, además de ser sabrosa, es una opción saludable y nutritiva.</p>
+            <h4>Soldaditos de pavia</h4>
+            <img src="img/plato2.jpeg" alt="">
+            <p>
+            Los <a href="https://www.abc.es/recetasderechupete/soldaditos-de-pavia-delicias-de-bacalao/13508/" style="color:grey; text-decoration: underline;">Soldaditos de pavia</a> son un plato característico de la gastronomía española, con vínculos históricos que se remontan a la ciudad de Cádiz, aunque también son populares en Sevilla y otras regiones. Esta deliciosa receta consiste en trozos de bacalao rebozados y fritos, a menudo acompañados de patatas. La denominación "Soldaditos de Pavía" se dice que proviene de la Guerra de la Independencia, donde los soldados se alimentaban con este plato durante la contienda. La combinación de sabores y texturas, junto con la historia detrás del nombre, hace de los Soldaditos de Pavía un manjar tradicional y apreciado en la culinaria española.</p>
+        </div>
+    </div>
+</body>
+
+</html>
